@@ -39,7 +39,7 @@
 .btn-primary:hover{
     background: transparent;
     border-color: var(--ternary);
-    color:rgb(221, 29, 29);
+    color: whitesmoke;
     
 }
 
@@ -55,4 +55,4 @@
     color:var(--primary); 
     
     /* background-color: ; */
-/* }
+}
