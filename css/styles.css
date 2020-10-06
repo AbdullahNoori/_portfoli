@@ -1,0 +1,216 @@
+@import 'utilities.css';
+
+:root{
+--primary: hsl(145, 90%, 73%);
+--secondary: blue;
+--dark: #161616;
+--pure: yellow;
+--ternary:red;
+
+--light: hsl(145, 90%, 73%);;
+}
+
+body{
+
+    font-family: 'Days One', sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+
+}
+
+header{
+    background: var(--dark);
+    height: 800px;
+  
+    
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration:none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition:all .3s ease ;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -ms-transition: all .3s ease;
+
+}
+
+header nav .left a{
+    color:var(--primary);
+}
+
+header nav{
+    padding: 2rem 0;
+}
+
+header nav .branding{
+ margin-right: 3rem;
+}
+
+.hero img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+.hero .right{
+    color: rgb(221, 29, 29);;   
+
+}
+
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+
+}
+
+.hero .right {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}   
+
+.hero p {
+    font-size: 18px;
+}
+
+.float-container {
+    border: 3px solid rgb(173, 173, 170);
+    padding: 20px;
+
+}
+    
+.column {
+    width: 50%;
+    /* float: left; */
+    padding: 5px;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.horizontal-list li {
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    border-bottom: 1px solid hsl(145, 90%, 73%);
+    
+}
+/* header nav .brnding a{
+    margin-right: 3rem;
+   } */
+
+.col-sm {
+    float: left;   
+    width: 30%;
+    padding: 5px;
+    border-right: 1px solid (hsl(145, 90%, 73%));
+
+}
+
+.col-lg{
+    float: right;   
+    width: 70%;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.bread-crum {
+ width: 100%;
+ padding: 20px;
+ height: 60px;
+ background: hsl(145, 90%, 73%);
+ 
+
+
+}
+
+.mt-5 {
+    margin-top: 5;
+}
+
+footer {
+    font-family: 'Days One', sans-serif;
+    text-align: center;
+    text-size-adjust: 20px;
+    padding: 3px;
+    background-color: black;
+    color:black
+    height=300px;
+  }
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .horizontal-list li {
+        float: none;
+
+    }
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .horizontal-list li {
+        float: none;
+        display: inline-block;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .horizontal-list li {
+        float: none;
+
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .horizontal-list li {
+        float: none;
+
+    }
+}
+
